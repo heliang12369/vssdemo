@@ -1,21 +1,148 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }, 
-  "testA": {
+	"posts": [{
+		"id": 1,
+		"title": "hello"
+	}],
+	"profile": {
+		"name": "typicode"
+	},
+	"testA": {
 		"code": 200,
-		"data": {"back":[{"groupid":"1","name":"Templates","internal":"0","flags":"0"},{"groupid":"2","name":"Linux servers","internal":"0","flags":"0"},{"groupid":"4","name":"Zabbix servers","internal":"0","flags":"0"},{"groupid":"5","name":"Discovered hosts","internal":"1","flags":"0"},{"groupid":"6","name":"Virtual machines","internal":"0","flags":"0"},{"groupid":"7","name":"Hypervisors","internal":"0","flags":"0"},{"groupid":"8","name":"Templates/Modules","internal":"0","flags":"0"},{"groupid":"9","name":"Templates/Network Devices","internal":"0","flags":"0"},{"groupid":"10","name":"Templates/Operating Systems","internal":"0","flags":"0"},{"groupid":"11","name":"Templates/Servers Hardware","internal":"0","flags":"0"},{"groupid":"12","name":"Templates/Applications","internal":"0","flags":"0"},{"groupid":"13","name":"Templates/Databases","internal":"0","flags":"0"},{"groupid":"14","name":"Templates/Virtualization","internal":"0","flags":"0"}],"jsonrpc":"2.0","fromip":"10.0.0.1","@timestamp":"2020-07-24T03:43:51.339Z","id":1,"result":"90f281ad3e07eef4be153f434bc109ab","@version":"1"},
+		"data": {
+			"back": [{
+				"groupid": "1",
+				"name": "Templates",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "2",
+				"name": "Linux servers",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "4",
+				"name": "Zabbix servers",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "5",
+				"name": "Discovered hosts",
+				"internal": "1",
+				"flags": "0"
+			}, {
+				"groupid": "6",
+				"name": "Virtual machines",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "7",
+				"name": "Hypervisors",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "8",
+				"name": "Templates/Modules",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "9",
+				"name": "Templates/Network Devices",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "10",
+				"name": "Templates/Operating Systems",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "11",
+				"name": "Templates/Servers Hardware",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "12",
+				"name": "Templates/Applications",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "13",
+				"name": "Templates/Databases",
+				"internal": "0",
+				"flags": "0"
+			}, {
+				"groupid": "14",
+				"name": "Templates/Virtualization",
+				"internal": "0",
+				"flags": "0"
+			}],
+			"jsonrpc": "2.0",
+			"fromip": "10.0.0.1",
+			"@timestamp": "2020-07-24T03:43:51.339Z",
+			"id": 1,
+			"result": "90f281ad3e07eef4be153f434bc109ab",
+			"@version": "1"
+		},
 		"msg": ""
 	},
-  "testB": {
+	"testB": {
 		"code": 200,
-		"data": {"back":[{"instID":"1","quotaID":"cpu","value":100},{"instID":"1","quotaID":"mem","value":90},{"instID":"1","quotaID":"disk","value":20},{"instID":"2","quotaID":"cpu","value":12},{"instID":"2","quotaID":"mem","value":92},{"instID":"2","quotaID":"disk","value":22},{"instID":"3","quotaID":"cpu","value":13},{"instID":"3","quotaID":"mem","value":93},{"instID":"3","quotaID":"disk","value":23}],"jsonrpc":"2.0","fromip":"10.0.0.1","@timestamp":"2020-07-24T03:43:51.339Z","id":1,"result":"90f281ad3e07eef4be153f434bc109ab","@version":"1"},
+		"data": {
+			"back": [{
+				"instID": "实例1",
+				"quotaID": "cpu",
+				"value": 100,
+				"type": "设备类型1",
+				"org": "组织1",
+				"loc": "位置1",
+
+			}, {
+				"instID": "实例2",
+				"quotaID": "cpu",
+				"value": 60,
+				"type": "设备类型1",
+				"org": "组织1",
+				"loc": "位置1",
+
+			}, {
+				"instID": "实例2",
+				"quotaID": "cpu",
+				"value": 77,
+				"type": "设备类型1",
+				"org": "组织2",
+				"loc": "位置1",
+
+			}, {
+				"instID": "2",
+				"quotaID": "cpu",
+				"value": 12
+			}, {
+				"instID": "2",
+				"quotaID": "mem",
+				"value": 92
+			}, {
+				"instID": "2",
+				"quotaID": "disk",
+				"value": 22
+			}, {
+				"instID": "3",
+				"quotaID": "cpu",
+				"value": 13
+			}, {
+				"instID": "3",
+				"quotaID": "mem",
+				"value": 93
+			}, {
+				"instID": "3",
+				"quotaID": "disk",
+				"value": 23
+			}],
+			"jsonrpc": "2.0",
+			"fromip": "10.0.0.1",
+			"@timestamp": "2020-07-24T03:43:51.339Z",
+			"id": 1,
+			"result": "90f281ad3e07eef4be153f434bc109ab",
+			"@version": "1"
+		},
 		"msg": ""
 	}
 }
