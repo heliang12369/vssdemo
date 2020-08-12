@@ -93,24 +93,21 @@
 				"value": 100,
 				"type": "设备类型1",
 				"org": "组织1",
-				"loc": "位置1",
-
+				"loc": "位置1"
 			}, {
 				"instID": "实例2",
 				"quotaID": "cpu",
 				"value": 60,
 				"type": "设备类型1",
 				"org": "组织1",
-				"loc": "位置1",
-
+				"loc": "位置1"
 			}, {
 				"instID": "实例2",
 				"quotaID": "cpu",
 				"value": 77,
 				"type": "设备类型1",
 				"org": "组织2",
-				"loc": "位置1",
-
+				"loc": "位置1"
 			}, {
 				"instID": "2",
 				"quotaID": "cpu",
